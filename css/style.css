@@ -1,0 +1,64 @@
+.container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.amarelo {
+    height: 100%;
+    width: 28%;
+    background-color: #FFB703;
+    margin-right: 2%;
+    border: solid;
+    border-radius: 10px;
+}
+
+.azul {
+    height: 100%;
+    width: 70%;
+    background-color: #219EBC;
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 50px;
+}
+
+.container2 {
+    height: 40px;
+    width: 100%;
+    background-color: #023047;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: solid;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+
+.container3 {
+    height: 200px;
+    width: 100%;
+}
+
+.quadradinhos {
+    height: 47px;
+    width: 100%;
+    background-color: #023047;
+    margin-bottom: 20px;
+    border: solid;
+    border-radius: 10px;
+}
+.quadradogrande {
+    height: 100%;
+    width: 100%;
+    background-color: #023047;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 10px;
+}
